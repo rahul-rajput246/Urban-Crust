@@ -1,0 +1,5 @@
+# robots.txt for Urban Crust Artisanal Pizzeria (Portfolio Demo)
+User-agent: *
+Allow: /
+
+Sitemap: https://urbancrust.example.com/sitemap.xml

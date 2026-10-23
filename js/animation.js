@@ -1,4 +1,8 @@
-setTimeout(canvas, 2200);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', canvas);
+} else {
+  canvas();
+}
 function canvas() {
 (function() {
   var Util,
